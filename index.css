@@ -1,0 +1,73 @@
+.wrapper {
+  width: 990px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-left: 50px;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.6;
+}
+
+.sedans {
+  width: 330px;
+  float: left;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5px 0px 0px 5px;
+}
+
+.suvs {
+  width: 330px;
+  float: left;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  width: 330px;
+  float: right;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 5px 5px 0px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px 30px 30px 30px;
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+.b-sedans {
+  color: hsl(31, 77%, 52%);
+}
+.b-suvs {
+  color: hsl(184, 100%, 22%);
+}
+.b-luxury {
+  color: hsl(179, 100%, 13%);
+}
